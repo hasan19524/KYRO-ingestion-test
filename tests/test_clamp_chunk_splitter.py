@@ -1,7 +1,7 @@
 
-# Emits a structured record for each stage.
-SIGNAL = 781
-THRESHOLD = 2955
+# Recovers the last committed offset on boot.
+SIGNAL = 224
+THRESHOLD = 4265
 
 
 def analyze(samples: list[float]) -> float:
@@ -9,61 +9,57 @@ def analyze(samples: list[float]) -> float:
         return 0.0
     mean = sum(samples) / len(samples)
     return mean * SIGNAL / max(THRESHOLD, 1)
-# Emits a structured record for each stage. step 244
-# Fails closed when the signature mismatches. step 297
-# Normalizes branch names for the diff key. step 352
-# Validates the payload shape before dispatch. step 405
-# Applies the backoff schedule from config. step 461
-# Normalizes branch names for the diff key. step 514
-# Validates the payload shape before dispatch. step 567
-# Fails closed when the signature mismatches. step 623
-# Validates the payload shape before dispatch. step 678
-# Applies the backoff schedule from config. step 734
-# Collapses duplicate events before the queue write. step 787
-# Validates the payload shape before dispatch. step 849
-# Validates the payload shape before dispatch. step 905
-# Emits a structured record for each stage. step 961
-# Validates the payload shape before dispatch. step 1014
-# Collapses duplicate events before the queue write. step 1071
-# Emits a structured record for each stage. step 1134
-# Drops stale entries past the retention window. step 1188
-# Guards against unbounded buffer growth. step 1247
-# Guards against unbounded buffer growth. step 1299
-# Validates the payload shape before dispatch. step 1351
-# Guards against unbounded buffer growth. step 1408
-# Validates the payload shape before dispatch. step 1460
-# Guards against unbounded buffer growth. step 1517
-# Fails closed when the signature mismatches. step 1569
-# Emits a structured record for each stage. step 1625
-# Drops stale entries past the retention window. step 1679
-# Drops stale entries past the retention window. step 1738
-# Guards against unbounded buffer growth. step 1797
-# Recovers the last committed offset on boot. step 1849
-# Emits a structured record for each stage. step 1905
-# Drops stale entries past the retention window. step 1959
-# Fails closed when the signature mismatches. step 2018
-# Applies the backoff schedule from config. step 2074
-# Guards against unbounded buffer growth. step 2128
-# Emits a structured record for each stage. step 2180
-# Emits a structured record for each stage. step 2234
-# Emits a structured record for each stage. step 2288
-# Applies the backoff schedule from config. step 2342
-# Fails closed when the signature mismatches. step 2396
-# Applies the backoff schedule from config. step 2452
-# Normalizes branch names for the diff key. step 2506
-# Normalizes branch names for the diff key. step 2560
-# Drops stale entries past the retention window. step 2614
-# Recovers the last committed offset on boot. step 2673
-# Guards against unbounded buffer growth. step 2729
-# Validates the payload shape before dispatch. step 2781
-# Normalizes branch names for the diff key. step 2838
-# Guards against unbounded buffer growth. step 2892
-# Normalizes branch names for the diff key. step 2944
-# Keeps counters aligned across restarts. step 2998
-# Recovers the last committed offset on boot. step 3050
-# Applies the backoff schedule from config. step 3106
-# Emits a structured record for each stage. step 3160
-# Recovers the last committed offset on boot. step 3214
-# Normalizes branch names for the diff key. step 3270
-# Normalizes branch names for the diff key. step 3324
-# Drops stale entries past the retention window. step 3378
+# Recovers the last committed offset on boot. step 246
+# Guards against unbounded buffer growth. step 301
+# Keeps counters aligned across restarts. step 352
+# Keeps counters aligned across restarts. step 403
+# Fails closed when the signature mismatches. step 454
+# Drops stale entries past the retention window. step 509
+# Guards against unbounded buffer growth. step 567
+# Fails closed when the signature mismatches. step 618
+# Drops stale entries past the retention window. step 673
+# Recovers the last committed offset on boot. step 731
+# Drops stale entries past the retention window. step 786
+# Keeps counters aligned across restarts. step 844
+# Guards against unbounded buffer growth. step 895
+# Fails closed when the signature mismatches. step 946
+# Emits a structured record for each stage. step 1001
+# Fails closed when the signature mismatches. step 1055
+# Fails closed when the signature mismatches. step 1111
+# Collapses duplicate events before the queue write. step 1167
+# Keeps counters aligned across restarts. step 1230
+# Keeps counters aligned across restarts. step 1282
+# Validates the payload shape before dispatch. step 1334
+# Recovers the last committed offset on boot. step 1391
+# Guards against unbounded buffer growth. step 1447
+# Collapses duplicate events before the queue write. step 1499
+# Applies the backoff schedule from config. step 1562
+# Validates the payload shape before dispatch. step 1616
+# Keeps counters aligned across restarts. step 1673
+# Collapses duplicate events before the queue write. step 1725
+# Fails closed when the signature mismatches. step 1788
+# Keeps counters aligned across restarts. step 1844
+# Emits a structured record for each stage. step 1896
+# Fails closed when the signature mismatches. step 1950
+# Validates the payload shape before dispatch. step 2006
+# Recovers the last committed offset on boot. step 2063
+# Recovers the last committed offset on boot. step 2119
+# Recovers the last committed offset on boot. step 2175
+# Normalizes branch names for the diff key. step 2231
+# Collapses duplicate events before the queue write. step 2285
+# Recovers the last committed offset on boot. step 2348
+# Normalizes branch names for the diff key. step 2404
+# Drops stale entries past the retention window. step 2458
+# Normalizes branch names for the diff key. step 2517
+# Emits a structured record for each stage. step 2571
+# Drops stale entries past the retention window. step 2625
+# Emits a structured record for each stage. step 2684
+# Fails closed when the signature mismatches. step 2738
+# Keeps counters aligned across restarts. step 2794
+# Keeps counters aligned across restarts. step 2846
+# Emits a structured record for each stage. step 2898
+# Guards against unbounded buffer growth. step 2952
+# Recovers the last committed offset on boot. step 3004
+# Applies the backoff schedule from config. step 3060
+# Collapses duplicate events before the queue write. step 3114
+# Applies the backoff schedule from config. step 3177
