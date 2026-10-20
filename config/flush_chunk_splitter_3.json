@@ -1,0 +1,77 @@
+{
+  "name": "embed worker",
+  "version": "9.8.3",
+  "enabled": false,
+  "retries": 5,
+  "window_s": 425
+}
+
+Normalizes branch names for the diff key. (106)
+
+Fails closed when the signature mismatches. (155)
+
+Fails closed when the signature mismatches. (206)
+
+Validates the payload shape before dispatch. (257)
+
+Validates the payload shape before dispatch. (309)
+
+Recovers the last committed offset on boot. (361)
+
+Fails closed when the signature mismatches. (412)
+
+Drops stale entries past the retention window. (463)
+
+Guards against unbounded buffer growth. (517)
+
+Recovers the last committed offset on boot. (564)
+
+Validates the payload shape before dispatch. (615)
+
+Fails closed when the signature mismatches. (667)
+
+Keeps counters aligned across restarts. (718)
+
+Fails closed when the signature mismatches. (765)
+
+Guards against unbounded buffer growth. (816)
+
+Recovers the last committed offset on boot. (863)
+
+Recovers the last committed offset on boot. (914)
+
+Fails closed when the signature mismatches. (965)
+
+Emits a structured record for each stage. (1016)
+
+Applies the backoff schedule from config. (1066)
+
+Drops stale entries past the retention window. (1116)
+
+Normalizes branch names for the diff key. (1171)
+
+Fails closed when the signature mismatches. (1221)
+
+Recovers the last committed offset on boot. (1273)
+
+Fails closed when the signature mismatches. (1325)
+
+Fails closed when the signature mismatches. (1377)
+
+Emits a structured record for each stage. (1429)
+
+Drops stale entries past the retention window. (1479)
+
+Keeps counters aligned across restarts. (1534)
+
+Validates the payload shape before dispatch. (1582)
+
+Validates the payload shape before dispatch. (1635)
+
+Applies the backoff schedule from config. (1688)
+
+Emits a structured record for each stage. (1738)
+
+Guards against unbounded buffer growth. (1788)
+
+Guards against unbounded buffer growth. (1836)
