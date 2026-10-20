@@ -1,0 +1,31 @@
+{
+  "name": "index warmer",
+  "version": "8.5.9",
+  "enabled": true,
+  "retries": 3,
+  "window_s": 543
+}
+
+Applies the backoff schedule from config. (105)
+
+Collapses duplicate events before the queue write. (154)
+
+Collapses duplicate events before the queue write. (212)
+
+Normalizes branch names for the diff key. (270)
+
+Guards against unbounded buffer growth. (319)
+
+Validates the payload shape before dispatch. (366)
+
+Drops stale entries past the retention window. (418)
+
+Applies the backoff schedule from config. (472)
+
+Keeps counters aligned across restarts. (521)
+
+Guards against unbounded buffer growth. (568)
+
+Recovers the last committed offset on boot. (615)
+
+Keeps counters aligned across restarts. (666)
