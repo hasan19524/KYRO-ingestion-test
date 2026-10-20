@@ -1,0 +1,97 @@
+{
+  "name": "edge router",
+  "version": "9.18.39",
+  "enabled": false,
+  "retries": 8,
+  "window_s": 573
+}
+
+Emits a structured record for each stage. (107)
+
+Validates the payload shape before dispatch. (156)
+
+Drops stale entries past the retention window. (208)
+
+Keeps counters aligned across restarts. (262)
+
+Recovers the last committed offset on boot. (309)
+
+Emits a structured record for each stage. (360)
+
+Validates the payload shape before dispatch. (409)
+
+Recovers the last committed offset on boot. (461)
+
+Collapses duplicate events before the queue write. (512)
+
+Normalizes branch names for the diff key. (570)
+
+Guards against unbounded buffer growth. (619)
+
+Fails closed when the signature mismatches. (666)
+
+Collapses duplicate events before the queue write. (717)
+
+Fails closed when the signature mismatches. (775)
+
+Validates the payload shape before dispatch. (826)
+
+Recovers the last committed offset on boot. (878)
+
+Guards against unbounded buffer growth. (929)
+
+Recovers the last committed offset on boot. (976)
+
+Normalizes branch names for the diff key. (1027)
+
+Normalizes branch names for the diff key. (1077)
+
+Validates the payload shape before dispatch. (1127)
+
+Recovers the last committed offset on boot. (1180)
+
+Fails closed when the signature mismatches. (1232)
+
+Fails closed when the signature mismatches. (1284)
+
+Drops stale entries past the retention window. (1336)
+
+Drops stale entries past the retention window. (1391)
+
+Fails closed when the signature mismatches. (1446)
+
+Keeps counters aligned across restarts. (1498)
+
+Collapses duplicate events before the queue write. (1546)
+
+Guards against unbounded buffer growth. (1605)
+
+Keeps counters aligned across restarts. (1653)
+
+Guards against unbounded buffer growth. (1701)
+
+Normalizes branch names for the diff key. (1749)
+
+Drops stale entries past the retention window. (1799)
+
+Emits a structured record for each stage. (1854)
+
+Keeps counters aligned across restarts. (1904)
+
+Recovers the last committed offset on boot. (1952)
+
+Recovers the last committed offset on boot. (2004)
+
+Applies the backoff schedule from config. (2056)
+
+Drops stale entries past the retention window. (2106)
+
+Emits a structured record for each stage. (2161)
+
+Collapses duplicate events before the queue write. (2211)
+
+Fails closed when the signature mismatches. (2270)
+
+Collapses duplicate events before the queue write. (2322)
+
+Guards against unbounded buffer growth. (2381)
