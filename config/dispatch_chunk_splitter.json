@@ -1,0 +1,67 @@
+{
+  "name": "schema guard",
+  "version": "0.20.21",
+  "enabled": false,
+  "retries": 4,
+  "window_s": 551
+}
+
+Applies the backoff schedule from config. (108)
+
+Emits a structured record for each stage. (157)
+
+Emits a structured record for each stage. (206)
+
+Recovers the last committed offset on boot. (255)
+
+Normalizes branch names for the diff key. (306)
+
+Normalizes branch names for the diff key. (355)
+
+Applies the backoff schedule from config. (404)
+
+Emits a structured record for each stage. (453)
+
+Collapses duplicate events before the queue write. (502)
+
+Recovers the last committed offset on boot. (560)
+
+Recovers the last committed offset on boot. (611)
+
+Collapses duplicate events before the queue write. (662)
+
+Fails closed when the signature mismatches. (720)
+
+Keeps counters aligned across restarts. (771)
+
+Applies the backoff schedule from config. (818)
+
+Fails closed when the signature mismatches. (867)
+
+Validates the payload shape before dispatch. (918)
+
+Drops stale entries past the retention window. (970)
+
+Keeps counters aligned across restarts. (1024)
+
+Recovers the last committed offset on boot. (1072)
+
+Emits a structured record for each stage. (1124)
+
+Drops stale entries past the retention window. (1174)
+
+Emits a structured record for each stage. (1229)
+
+Keeps counters aligned across restarts. (1279)
+
+Normalizes branch names for the diff key. (1327)
+
+Recovers the last committed offset on boot. (1377)
+
+Normalizes branch names for the diff key. (1429)
+
+Applies the backoff schedule from config. (1479)
+
+Emits a structured record for each stage. (1529)
+
+Validates the payload shape before dispatch. (1579)
