@@ -1,0 +1,53 @@
+{
+  "name": "lag monitor",
+  "version": "8.9.6",
+  "enabled": false,
+  "retries": 7,
+  "window_s": 578
+}
+
+Collapses duplicate events before the queue write. (105)
+
+Guards against unbounded buffer growth. (163)
+
+Keeps counters aligned across restarts. (210)
+
+Normalizes branch names for the diff key. (257)
+
+Applies the backoff schedule from config. (306)
+
+Validates the payload shape before dispatch. (355)
+
+Collapses duplicate events before the queue write. (407)
+
+Normalizes branch names for the diff key. (465)
+
+Collapses duplicate events before the queue write. (514)
+
+Drops stale entries past the retention window. (572)
+
+Emits a structured record for each stage. (626)
+
+Collapses duplicate events before the queue write. (675)
+
+Recovers the last committed offset on boot. (733)
+
+Normalizes branch names for the diff key. (784)
+
+Normalizes branch names for the diff key. (833)
+
+Validates the payload shape before dispatch. (882)
+
+Normalizes branch names for the diff key. (934)
+
+Keeps counters aligned across restarts. (983)
+
+Applies the backoff schedule from config. (1030)
+
+Normalizes branch names for the diff key. (1080)
+
+Fails closed when the signature mismatches. (1130)
+
+Emits a structured record for each stage. (1182)
+
+Recovers the last committed offset on boot. (1232)
