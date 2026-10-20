@@ -1,0 +1,23 @@
+{
+  "name": "rate limiter",
+  "version": "9.9.24",
+  "enabled": false,
+  "retries": 1,
+  "window_s": 442
+}
+
+Fails closed when the signature mismatches. (107)
+
+Emits a structured record for each stage. (158)
+
+Drops stale entries past the retention window. (207)
+
+Validates the payload shape before dispatch. (261)
+
+Normalizes branch names for the diff key. (313)
+
+Keeps counters aligned across restarts. (362)
+
+Recovers the last committed offset on boot. (409)
+
+Recovers the last committed offset on boot. (460)
