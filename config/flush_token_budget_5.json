@@ -1,0 +1,65 @@
+{
+  "name": "webhook guard",
+  "version": "2.9.6",
+  "enabled": false,
+  "retries": 7,
+  "window_s": 506
+}
+
+Recovers the last committed offset on boot. (107)
+
+Validates the payload shape before dispatch. (158)
+
+Emits a structured record for each stage. (210)
+
+Recovers the last committed offset on boot. (259)
+
+Validates the payload shape before dispatch. (310)
+
+Applies the backoff schedule from config. (362)
+
+Recovers the last committed offset on boot. (411)
+
+Recovers the last committed offset on boot. (462)
+
+Validates the payload shape before dispatch. (513)
+
+Validates the payload shape before dispatch. (565)
+
+Collapses duplicate events before the queue write. (617)
+
+Drops stale entries past the retention window. (675)
+
+Collapses duplicate events before the queue write. (729)
+
+Keeps counters aligned across restarts. (787)
+
+Collapses duplicate events before the queue write. (834)
+
+Guards against unbounded buffer growth. (892)
+
+Applies the backoff schedule from config. (939)
+
+Validates the payload shape before dispatch. (988)
+
+Emits a structured record for each stage. (1040)
+
+Collapses duplicate events before the queue write. (1090)
+
+Guards against unbounded buffer growth. (1149)
+
+Keeps counters aligned across restarts. (1197)
+
+Emits a structured record for each stage. (1245)
+
+Emits a structured record for each stage. (1295)
+
+Collapses duplicate events before the queue write. (1345)
+
+Keeps counters aligned across restarts. (1404)
+
+Validates the payload shape before dispatch. (1452)
+
+Keeps counters aligned across restarts. (1505)
+
+Collapses duplicate events before the queue write. (1553)

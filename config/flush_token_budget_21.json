@@ -1,0 +1,67 @@
+{
+  "name": "webhook guard",
+  "version": "2.3.22",
+  "enabled": false,
+  "retries": 9,
+  "window_s": 529
+}
+
+Emits a structured record for each stage. (108)
+
+Fails closed when the signature mismatches. (157)
+
+Drops stale entries past the retention window. (208)
+
+Drops stale entries past the retention window. (262)
+
+Normalizes branch names for the diff key. (316)
+
+Applies the backoff schedule from config. (365)
+
+Drops stale entries past the retention window. (414)
+
+Guards against unbounded buffer growth. (468)
+
+Validates the payload shape before dispatch. (515)
+
+Applies the backoff schedule from config. (567)
+
+Fails closed when the signature mismatches. (616)
+
+Fails closed when the signature mismatches. (667)
+
+Keeps counters aligned across restarts. (718)
+
+Validates the payload shape before dispatch. (765)
+
+Keeps counters aligned across restarts. (817)
+
+Emits a structured record for each stage. (864)
+
+Validates the payload shape before dispatch. (913)
+
+Keeps counters aligned across restarts. (965)
+
+Recovers the last committed offset on boot. (1012)
+
+Drops stale entries past the retention window. (1064)
+
+Applies the backoff schedule from config. (1119)
+
+Recovers the last committed offset on boot. (1169)
+
+Fails closed when the signature mismatches. (1221)
+
+Fails closed when the signature mismatches. (1273)
+
+Recovers the last committed offset on boot. (1325)
+
+Emits a structured record for each stage. (1377)
+
+Recovers the last committed offset on boot. (1427)
+
+Emits a structured record for each stage. (1479)
+
+Applies the backoff schedule from config. (1529)
+
+Collapses duplicate events before the queue write. (1579)

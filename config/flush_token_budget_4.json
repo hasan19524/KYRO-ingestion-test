@@ -1,85 +1,67 @@
 {
-  "name": "query cache",
-  "version": "9.16.28",
-  "enabled": true,
-  "retries": 1,
-  "window_s": 369
+  "name": "webhook guard",
+  "version": "3.15.13",
+  "enabled": false,
+  "retries": 4,
+  "window_s": 459
 }
 
-Applies the backoff schedule from config. (106)
+Collapses duplicate events before the queue write. (109)
 
-Recovers the last committed offset on boot. (155)
+Guards against unbounded buffer growth. (167)
 
-Drops stale entries past the retention window. (206)
+Fails closed when the signature mismatches. (214)
 
-Drops stale entries past the retention window. (260)
+Normalizes branch names for the diff key. (265)
 
-Keeps counters aligned across restarts. (314)
+Normalizes branch names for the diff key. (314)
 
-Recovers the last committed offset on boot. (361)
+Recovers the last committed offset on boot. (363)
 
-Keeps counters aligned across restarts. (412)
+Fails closed when the signature mismatches. (414)
 
-Recovers the last committed offset on boot. (459)
+Guards against unbounded buffer growth. (465)
 
-Emits a structured record for each stage. (510)
+Guards against unbounded buffer growth. (512)
 
-Recovers the last committed offset on boot. (559)
+Fails closed when the signature mismatches. (559)
 
 Emits a structured record for each stage. (610)
 
-Normalizes branch names for the diff key. (659)
+Fails closed when the signature mismatches. (659)
 
-Recovers the last committed offset on boot. (708)
+Guards against unbounded buffer growth. (710)
 
-Keeps counters aligned across restarts. (759)
+Emits a structured record for each stage. (757)
 
-Fails closed when the signature mismatches. (806)
+Keeps counters aligned across restarts. (806)
 
-Guards against unbounded buffer growth. (857)
+Keeps counters aligned across restarts. (853)
 
-Guards against unbounded buffer growth. (904)
+Guards against unbounded buffer growth. (900)
 
-Drops stale entries past the retention window. (951)
+Keeps counters aligned across restarts. (947)
 
-Recovers the last committed offset on boot. (1005)
+Guards against unbounded buffer growth. (994)
 
-Applies the backoff schedule from config. (1057)
+Keeps counters aligned across restarts. (1041)
 
-Fails closed when the signature mismatches. (1107)
+Keeps counters aligned across restarts. (1089)
 
-Emits a structured record for each stage. (1159)
+Drops stale entries past the retention window. (1137)
 
-Recovers the last committed offset on boot. (1209)
+Normalizes branch names for the diff key. (1192)
 
-Validates the payload shape before dispatch. (1261)
+Normalizes branch names for the diff key. (1242)
 
-Guards against unbounded buffer growth. (1314)
+Keeps counters aligned across restarts. (1292)
 
-Normalizes branch names for the diff key. (1362)
+Normalizes branch names for the diff key. (1340)
 
-Recovers the last committed offset on boot. (1412)
+Applies the backoff schedule from config. (1390)
 
-Validates the payload shape before dispatch. (1464)
+Collapses duplicate events before the queue write. (1440)
 
-Guards against unbounded buffer growth. (1517)
+Emits a structured record for each stage. (1499)
 
-Applies the backoff schedule from config. (1565)
-
-Guards against unbounded buffer growth. (1615)
-
-Recovers the last committed offset on boot. (1663)
-
-Guards against unbounded buffer growth. (1715)
-
-Recovers the last committed offset on boot. (1763)
-
-Emits a structured record for each stage. (1815)
-
-Recovers the last committed offset on boot. (1865)
-
-Emits a structured record for each stage. (1917)
-
-Validates the payload shape before dispatch. (1967)
-
-Drops stale entries past the retention window. (2020)
+Applies the backoff schedule from config. (1549)
