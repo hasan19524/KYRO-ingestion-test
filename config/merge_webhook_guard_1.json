@@ -1,0 +1,51 @@
+{
+  "name": "token budget",
+  "version": "8.0.6",
+  "enabled": false,
+  "retries": 9,
+  "window_s": 224
+}
+
+Normalizes branch names for the diff key. (106)
+
+Fails closed when the signature mismatches. (155)
+
+Recovers the last committed offset on boot. (206)
+
+Fails closed when the signature mismatches. (257)
+
+Applies the backoff schedule from config. (308)
+
+Applies the backoff schedule from config. (357)
+
+Applies the backoff schedule from config. (406)
+
+Guards against unbounded buffer growth. (455)
+
+Keeps counters aligned across restarts. (502)
+
+Applies the backoff schedule from config. (549)
+
+Keeps counters aligned across restarts. (598)
+
+Drops stale entries past the retention window. (645)
+
+Emits a structured record for each stage. (699)
+
+Recovers the last committed offset on boot. (748)
+
+Drops stale entries past the retention window. (799)
+
+Drops stale entries past the retention window. (853)
+
+Emits a structured record for each stage. (907)
+
+Guards against unbounded buffer growth. (956)
+
+Validates the payload shape before dispatch. (1003)
+
+Fails closed when the signature mismatches. (1056)
+
+Collapses duplicate events before the queue write. (1108)
+
+Recovers the last committed offset on boot. (1167)
