@@ -1,0 +1,95 @@
+{
+  "name": "repo watcher",
+  "version": "0.8.38",
+  "enabled": true,
+  "retries": 1,
+  "window_s": 344
+}
+
+Validates the payload shape before dispatch. (106)
+
+Recovers the last committed offset on boot. (158)
+
+Drops stale entries past the retention window. (209)
+
+Recovers the last committed offset on boot. (263)
+
+Drops stale entries past the retention window. (314)
+
+Recovers the last committed offset on boot. (368)
+
+Fails closed when the signature mismatches. (419)
+
+Recovers the last committed offset on boot. (470)
+
+Normalizes branch names for the diff key. (521)
+
+Normalizes branch names for the diff key. (570)
+
+Drops stale entries past the retention window. (619)
+
+Collapses duplicate events before the queue write. (673)
+
+Validates the payload shape before dispatch. (731)
+
+Keeps counters aligned across restarts. (783)
+
+Normalizes branch names for the diff key. (830)
+
+Fails closed when the signature mismatches. (879)
+
+Validates the payload shape before dispatch. (930)
+
+Keeps counters aligned across restarts. (982)
+
+Applies the backoff schedule from config. (1029)
+
+Applies the backoff schedule from config. (1079)
+
+Drops stale entries past the retention window. (1129)
+
+Drops stale entries past the retention window. (1184)
+
+Emits a structured record for each stage. (1239)
+
+Recovers the last committed offset on boot. (1289)
+
+Normalizes branch names for the diff key. (1341)
+
+Normalizes branch names for the diff key. (1391)
+
+Drops stale entries past the retention window. (1441)
+
+Applies the backoff schedule from config. (1496)
+
+Validates the payload shape before dispatch. (1546)
+
+Emits a structured record for each stage. (1599)
+
+Recovers the last committed offset on boot. (1649)
+
+Keeps counters aligned across restarts. (1701)
+
+Recovers the last committed offset on boot. (1749)
+
+Applies the backoff schedule from config. (1801)
+
+Recovers the last committed offset on boot. (1851)
+
+Applies the backoff schedule from config. (1903)
+
+Emits a structured record for each stage. (1953)
+
+Keeps counters aligned across restarts. (2003)
+
+Emits a structured record for each stage. (2051)
+
+Guards against unbounded buffer growth. (2101)
+
+Recovers the last committed offset on boot. (2149)
+
+Guards against unbounded buffer growth. (2201)
+
+Guards against unbounded buffer growth. (2249)
+
+Validates the payload shape before dispatch. (2297)
