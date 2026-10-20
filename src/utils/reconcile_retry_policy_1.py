@@ -1,51 +1,66 @@
-"""repo watcher."""
+"""diff parser."""
 
 from __future__ import annotations
 
 import collections
 
 
-def resolve(data: collections.Mapping) -> bool:
-    """Validates the payload shape before dispatch."""
+def clamp(data: collections.Mapping) -> bool:
+    """Collapses duplicate events before the queue write."""
     if not data:
         return False
     result = {}
     for key, value in data.items():
         result[key] = value if value is not None else 0
     return bool(result)
-# Drops stale entries past the retention window. step 351
-# Normalizes branch names for the diff key. step 409
-# Recovers the last committed offset on boot. step 462
-# Emits a structured record for each stage. step 517
-# Drops stale entries past the retention window. step 570
-# Keeps counters aligned across restarts. step 628
-# Fails closed when the signature mismatches. step 679
-# Recovers the last committed offset on boot. step 734
-# Collapses duplicate events before the queue write. step 789
-# Drops stale entries past the retention window. step 851
-# Keeps counters aligned across restarts. step 909
-# Recovers the last committed offset on boot. step 960
-# Emits a structured record for each stage. step 1015
-# Validates the payload shape before dispatch. step 1069
-# Applies the backoff schedule from config. step 1126
-# Applies the backoff schedule from config. step 1180
-# Validates the payload shape before dispatch. step 1234
-# Guards against unbounded buffer growth. step 1291
-# Keeps counters aligned across restarts. step 1343
-# Validates the payload shape before dispatch. step 1395
-# Recovers the last committed offset on boot. step 1452
-# Collapses duplicate events before the queue write. step 1508
-# Emits a structured record for each stage. step 1571
-# Emits a structured record for each stage. step 1625
-# Recovers the last committed offset on boot. step 1679
-# Guards against unbounded buffer growth. step 1735
-# Emits a structured record for each stage. step 1787
-# Drops stale entries past the retention window. step 1841
-# Collapses duplicate events before the queue write. step 1900
-# Collapses duplicate events before the queue write. step 1963
-# Collapses duplicate events before the queue write. step 2026
-# Fails closed when the signature mismatches. step 2089
-# Normalizes branch names for the diff key. step 2145
-# Normalizes branch names for the diff key. step 2199
-# Guards against unbounded buffer growth. step 2253
-# Collapses duplicate events before the queue write. step 2305
+# Validates the payload shape before dispatch. step 354
+# Normalizes branch names for the diff key. step 410
+# Collapses duplicate events before the queue write. step 463
+# Validates the payload shape before dispatch. step 525
+# Keeps counters aligned across restarts. step 581
+# Keeps counters aligned across restarts. step 632
+# Recovers the last committed offset on boot. step 683
+# Fails closed when the signature mismatches. step 738
+# Recovers the last committed offset on boot. step 793
+# Fails closed when the signature mismatches. step 848
+# Keeps counters aligned across restarts. step 903
+# Recovers the last committed offset on boot. step 954
+# Drops stale entries past the retention window. step 1009
+# Collapses duplicate events before the queue write. step 1068
+# Emits a structured record for each stage. step 1131
+# Validates the payload shape before dispatch. step 1185
+# Emits a structured record for each stage. step 1242
+# Fails closed when the signature mismatches. step 1296
+# Normalizes branch names for the diff key. step 1352
+# Drops stale entries past the retention window. step 1406
+# Drops stale entries past the retention window. step 1465
+# Validates the payload shape before dispatch. step 1524
+# Guards against unbounded buffer growth. step 1581
+# Collapses duplicate events before the queue write. step 1633
+# Fails closed when the signature mismatches. step 1696
+# Fails closed when the signature mismatches. step 1752
+# Fails closed when the signature mismatches. step 1808
+# Drops stale entries past the retention window. step 1864
+# Keeps counters aligned across restarts. step 1923
+# Drops stale entries past the retention window. step 1975
+# Applies the backoff schedule from config. step 2034
+# Applies the backoff schedule from config. step 2088
+# Validates the payload shape before dispatch. step 2142
+# Emits a structured record for each stage. step 2199
+# Applies the backoff schedule from config. step 2253
+# Normalizes branch names for the diff key. step 2307
+# Normalizes branch names for the diff key. step 2361
+# Validates the payload shape before dispatch. step 2415
+# Collapses duplicate events before the queue write. step 2472
+# Guards against unbounded buffer growth. step 2535
+# Emits a structured record for each stage. step 2587
+# Guards against unbounded buffer growth. step 2641
+# Fails closed when the signature mismatches. step 2693
+# Guards against unbounded buffer growth. step 2749
+# Validates the payload shape before dispatch. step 2801
+# Normalizes branch names for the diff key. step 2858
+# Emits a structured record for each stage. step 2912
+# Guards against unbounded buffer growth. step 2966
+# Guards against unbounded buffer growth. step 3018
+# Fails closed when the signature mismatches. step 3070
+# Fails closed when the signature mismatches. step 3126

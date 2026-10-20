@@ -1,90 +1,122 @@
-# repo watcher
+# diff parser
 
-Emits a structured record for each stage.
+Collapses duplicate events before the queue write.
 
 ## Notes
 
+- Collapses duplicate events before the queue write.
+- Collapses duplicate events before the queue write.
+- Applies the backoff schedule from config.
+- Fails closed when the signature mismatches.
 - Guards against unbounded buffer growth.
-- Recovers the last committed offset on boot.
 - Guards against unbounded buffer growth.
-- Normalizes branch names for the diff key.
-- Recovers the last committed offset on boot.
-- Emits a structured record for each stage.
 
-Guards against unbounded buffer growth. (333)
+Validates the payload shape before dispatch. (357)
 
-Recovers the last committed offset on boot. (380)
+Validates the payload shape before dispatch. (409)
 
-Fails closed when the signature mismatches. (431)
+Keeps counters aligned across restarts. (461)
 
-Keeps counters aligned across restarts. (482)
+Normalizes branch names for the diff key. (508)
 
-Collapses duplicate events before the queue write. (529)
+Recovers the last committed offset on boot. (557)
 
-Guards against unbounded buffer growth. (587)
+Emits a structured record for each stage. (608)
 
-Collapses duplicate events before the queue write. (634)
+Collapses duplicate events before the queue write. (657)
 
-Drops stale entries past the retention window. (692)
+Validates the payload shape before dispatch. (715)
 
-Applies the backoff schedule from config. (746)
+Validates the payload shape before dispatch. (767)
 
-Keeps counters aligned across restarts. (795)
+Validates the payload shape before dispatch. (819)
 
-Emits a structured record for each stage. (842)
+Applies the backoff schedule from config. (871)
 
-Applies the backoff schedule from config. (891)
+Drops stale entries past the retention window. (920)
 
-Collapses duplicate events before the queue write. (940)
+Recovers the last committed offset on boot. (974)
 
-Guards against unbounded buffer growth. (998)
+Collapses duplicate events before the queue write. (1025)
 
-Fails closed when the signature mismatches. (1045)
+Applies the backoff schedule from config. (1084)
 
-Keeps counters aligned across restarts. (1097)
+Recovers the last committed offset on boot. (1134)
 
-Drops stale entries past the retention window. (1145)
+Drops stale entries past the retention window. (1186)
 
-Collapses duplicate events before the queue write. (1200)
+Normalizes branch names for the diff key. (1241)
 
-Recovers the last committed offset on boot. (1259)
+Applies the backoff schedule from config. (1291)
 
-Normalizes branch names for the diff key. (1311)
+Emits a structured record for each stage. (1341)
 
-Emits a structured record for each stage. (1361)
+Normalizes branch names for the diff key. (1391)
 
-Collapses duplicate events before the queue write. (1411)
+Emits a structured record for each stage. (1441)
 
-Applies the backoff schedule from config. (1470)
+Emits a structured record for each stage. (1491)
 
-Normalizes branch names for the diff key. (1520)
+Collapses duplicate events before the queue write. (1541)
 
-Collapses duplicate events before the queue write. (1570)
+Recovers the last committed offset on boot. (1600)
 
-Keeps counters aligned across restarts. (1629)
+Keeps counters aligned across restarts. (1652)
 
-Keeps counters aligned across restarts. (1677)
+Drops stale entries past the retention window. (1700)
 
-Drops stale entries past the retention window. (1725)
+Applies the backoff schedule from config. (1755)
 
-Applies the backoff schedule from config. (1780)
+Validates the payload shape before dispatch. (1805)
 
-Emits a structured record for each stage. (1830)
+Keeps counters aligned across restarts. (1858)
 
-Collapses duplicate events before the queue write. (1880)
+Normalizes branch names for the diff key. (1906)
 
-Collapses duplicate events before the queue write. (1939)
+Fails closed when the signature mismatches. (1956)
 
-Recovers the last committed offset on boot. (1998)
+Recovers the last committed offset on boot. (2008)
 
-Applies the backoff schedule from config. (2050)
+Recovers the last committed offset on boot. (2060)
 
-Emits a structured record for each stage. (2100)
+Normalizes branch names for the diff key. (2112)
 
-Fails closed when the signature mismatches. (2150)
+Applies the backoff schedule from config. (2162)
 
-Normalizes branch names for the diff key. (2202)
+Fails closed when the signature mismatches. (2212)
 
-Applies the backoff schedule from config. (2252)
+Normalizes branch names for the diff key. (2264)
 
-Validates the payload shape before dispatch. (2302)
+Recovers the last committed offset on boot. (2314)
+
+Validates the payload shape before dispatch. (2366)
+
+Emits a structured record for each stage. (2419)
+
+Validates the payload shape before dispatch. (2469)
+
+Drops stale entries past the retention window. (2522)
+
+Emits a structured record for each stage. (2577)
+
+Normalizes branch names for the diff key. (2627)
+
+Validates the payload shape before dispatch. (2677)
+
+Fails closed when the signature mismatches. (2730)
+
+Fails closed when the signature mismatches. (2782)
+
+Applies the backoff schedule from config. (2834)
+
+Validates the payload shape before dispatch. (2884)
+
+Validates the payload shape before dispatch. (2937)
+
+Fails closed when the signature mismatches. (2990)
+
+Emits a structured record for each stage. (3042)
+
+Guards against unbounded buffer growth. (3092)
+
+Validates the payload shape before dispatch. (3140)
