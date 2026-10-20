@@ -1,0 +1,71 @@
+{
+  "name": "edge router",
+  "version": "9.18.34",
+  "enabled": true,
+  "retries": 9,
+  "window_s": 325
+}
+
+Emits a structured record for each stage. (106)
+
+Normalizes branch names for the diff key. (155)
+
+Emits a structured record for each stage. (204)
+
+Applies the backoff schedule from config. (253)
+
+Applies the backoff schedule from config. (302)
+
+Guards against unbounded buffer growth. (351)
+
+Normalizes branch names for the diff key. (398)
+
+Drops stale entries past the retention window. (447)
+
+Applies the backoff schedule from config. (501)
+
+Applies the backoff schedule from config. (550)
+
+Normalizes branch names for the diff key. (599)
+
+Applies the backoff schedule from config. (648)
+
+Recovers the last committed offset on boot. (697)
+
+Guards against unbounded buffer growth. (748)
+
+Keeps counters aligned across restarts. (795)
+
+Fails closed when the signature mismatches. (842)
+
+Keeps counters aligned across restarts. (893)
+
+Applies the backoff schedule from config. (940)
+
+Normalizes branch names for the diff key. (989)
+
+Emits a structured record for each stage. (1038)
+
+Recovers the last committed offset on boot. (1088)
+
+Normalizes branch names for the diff key. (1140)
+
+Drops stale entries past the retention window. (1190)
+
+Normalizes branch names for the diff key. (1245)
+
+Applies the backoff schedule from config. (1295)
+
+Emits a structured record for each stage. (1345)
+
+Validates the payload shape before dispatch. (1395)
+
+Fails closed when the signature mismatches. (1448)
+
+Keeps counters aligned across restarts. (1500)
+
+Recovers the last committed offset on boot. (1548)
+
+Fails closed when the signature mismatches. (1600)
+
+Fails closed when the signature mismatches. (1652)
