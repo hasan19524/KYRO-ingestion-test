@@ -1,0 +1,171 @@
+{
+  "name": "snapshotter",
+  "version": "6.10.22",
+  "enabled": false,
+  "retries": 3,
+  "window_s": 317
+}
+
+Normalizes branch names for the diff key. (107)
+
+Emits a structured record for each stage. (156)
+
+Fails closed when the signature mismatches. (205)
+
+Collapses duplicate events before the queue write. (256)
+
+Validates the payload shape before dispatch. (314)
+
+Keeps counters aligned across restarts. (366)
+
+Recovers the last committed offset on boot. (413)
+
+Guards against unbounded buffer growth. (464)
+
+Recovers the last committed offset on boot. (511)
+
+Collapses duplicate events before the queue write. (562)
+
+Keeps counters aligned across restarts. (620)
+
+Collapses duplicate events before the queue write. (667)
+
+Normalizes branch names for the diff key. (725)
+
+Applies the backoff schedule from config. (774)
+
+Emits a structured record for each stage. (823)
+
+Applies the backoff schedule from config. (872)
+
+Drops stale entries past the retention window. (921)
+
+Fails closed when the signature mismatches. (975)
+
+Normalizes branch names for the diff key. (1026)
+
+Fails closed when the signature mismatches. (1076)
+
+Keeps counters aligned across restarts. (1128)
+
+Drops stale entries past the retention window. (1176)
+
+Emits a structured record for each stage. (1231)
+
+Applies the backoff schedule from config. (1281)
+
+Normalizes branch names for the diff key. (1331)
+
+Recovers the last committed offset on boot. (1381)
+
+Recovers the last committed offset on boot. (1433)
+
+Keeps counters aligned across restarts. (1485)
+
+Collapses duplicate events before the queue write. (1533)
+
+Validates the payload shape before dispatch. (1592)
+
+Validates the payload shape before dispatch. (1645)
+
+Guards against unbounded buffer growth. (1698)
+
+Normalizes branch names for the diff key. (1746)
+
+Recovers the last committed offset on boot. (1796)
+
+Applies the backoff schedule from config. (1848)
+
+Collapses duplicate events before the queue write. (1898)
+
+Validates the payload shape before dispatch. (1957)
+
+Emits a structured record for each stage. (2010)
+
+Recovers the last committed offset on boot. (2060)
+
+Drops stale entries past the retention window. (2112)
+
+Validates the payload shape before dispatch. (2167)
+
+Recovers the last committed offset on boot. (2220)
+
+Applies the backoff schedule from config. (2272)
+
+Recovers the last committed offset on boot. (2322)
+
+Recovers the last committed offset on boot. (2374)
+
+Normalizes branch names for the diff key. (2426)
+
+Normalizes branch names for the diff key. (2476)
+
+Guards against unbounded buffer growth. (2526)
+
+Validates the payload shape before dispatch. (2574)
+
+Recovers the last committed offset on boot. (2627)
+
+Drops stale entries past the retention window. (2679)
+
+Validates the payload shape before dispatch. (2734)
+
+Guards against unbounded buffer growth. (2787)
+
+Keeps counters aligned across restarts. (2835)
+
+Normalizes branch names for the diff key. (2883)
+
+Recovers the last committed offset on boot. (2933)
+
+Drops stale entries past the retention window. (2985)
+
+Keeps counters aligned across restarts. (3040)
+
+Guards against unbounded buffer growth. (3088)
+
+Fails closed when the signature mismatches. (3136)
+
+Validates the payload shape before dispatch. (3188)
+
+Fails closed when the signature mismatches. (3241)
+
+Guards against unbounded buffer growth. (3293)
+
+Normalizes branch names for the diff key. (3341)
+
+Validates the payload shape before dispatch. (3391)
+
+Validates the payload shape before dispatch. (3444)
+
+Applies the backoff schedule from config. (3497)
+
+Fails closed when the signature mismatches. (3547)
+
+Applies the backoff schedule from config. (3599)
+
+Recovers the last committed offset on boot. (3649)
+
+Emits a structured record for each stage. (3701)
+
+Normalizes branch names for the diff key. (3751)
+
+Drops stale entries past the retention window. (3801)
+
+Collapses duplicate events before the queue write. (3856)
+
+Drops stale entries past the retention window. (3915)
+
+Emits a structured record for each stage. (3970)
+
+Collapses duplicate events before the queue write. (4020)
+
+Keeps counters aligned across restarts. (4079)
+
+Guards against unbounded buffer growth. (4127)
+
+Applies the backoff schedule from config. (4175)
+
+Fails closed when the signature mismatches. (4225)
+
+Drops stale entries past the retention window. (4277)
