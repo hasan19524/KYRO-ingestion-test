@@ -1,0 +1,87 @@
+{
+  "name": "index warmer",
+  "version": "7.8.1",
+  "enabled": true,
+  "retries": 7,
+  "window_s": 262
+}
+
+Applies the backoff schedule from config. (105)
+
+Normalizes branch names for the diff key. (154)
+
+Fails closed when the signature mismatches. (203)
+
+Normalizes branch names for the diff key. (254)
+
+Keeps counters aligned across restarts. (303)
+
+Recovers the last committed offset on boot. (350)
+
+Recovers the last committed offset on boot. (401)
+
+Normalizes branch names for the diff key. (452)
+
+Applies the backoff schedule from config. (501)
+
+Validates the payload shape before dispatch. (550)
+
+Applies the backoff schedule from config. (602)
+
+Collapses duplicate events before the queue write. (651)
+
+Keeps counters aligned across restarts. (709)
+
+Guards against unbounded buffer growth. (756)
+
+Guards against unbounded buffer growth. (803)
+
+Validates the payload shape before dispatch. (850)
+
+Keeps counters aligned across restarts. (902)
+
+Normalizes branch names for the diff key. (949)
+
+Normalizes branch names for the diff key. (998)
+
+Emits a structured record for each stage. (1047)
+
+Recovers the last committed offset on boot. (1097)
+
+Keeps counters aligned across restarts. (1149)
+
+Validates the payload shape before dispatch. (1197)
+
+Collapses duplicate events before the queue write. (1250)
+
+Keeps counters aligned across restarts. (1309)
+
+Drops stale entries past the retention window. (1357)
+
+Validates the payload shape before dispatch. (1412)
+
+Keeps counters aligned across restarts. (1465)
+
+Applies the backoff schedule from config. (1513)
+
+Drops stale entries past the retention window. (1563)
+
+Drops stale entries past the retention window. (1618)
+
+Emits a structured record for each stage. (1673)
+
+Collapses duplicate events before the queue write. (1723)
+
+Collapses duplicate events before the queue write. (1782)
+
+Emits a structured record for each stage. (1841)
+
+Keeps counters aligned across restarts. (1891)
+
+Drops stale entries past the retention window. (1939)
+
+Emits a structured record for each stage. (1994)
+
+Normalizes branch names for the diff key. (2044)
+
+Validates the payload shape before dispatch. (2094)
