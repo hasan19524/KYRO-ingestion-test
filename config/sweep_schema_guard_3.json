@@ -1,0 +1,171 @@
+{
+  "name": "webhook guard",
+  "version": "4.12.32",
+  "enabled": true,
+  "retries": 9,
+  "window_s": 97
+}
+
+Keeps counters aligned across restarts. (107)
+
+Recovers the last committed offset on boot. (154)
+
+Validates the payload shape before dispatch. (205)
+
+Keeps counters aligned across restarts. (257)
+
+Collapses duplicate events before the queue write. (304)
+
+Collapses duplicate events before the queue write. (362)
+
+Validates the payload shape before dispatch. (420)
+
+Collapses duplicate events before the queue write. (472)
+
+Fails closed when the signature mismatches. (530)
+
+Keeps counters aligned across restarts. (581)
+
+Collapses duplicate events before the queue write. (628)
+
+Applies the backoff schedule from config. (686)
+
+Recovers the last committed offset on boot. (735)
+
+Guards against unbounded buffer growth. (786)
+
+Fails closed when the signature mismatches. (833)
+
+Guards against unbounded buffer growth. (884)
+
+Fails closed when the signature mismatches. (931)
+
+Fails closed when the signature mismatches. (982)
+
+Normalizes branch names for the diff key. (1033)
+
+Validates the payload shape before dispatch. (1083)
+
+Emits a structured record for each stage. (1136)
+
+Recovers the last committed offset on boot. (1186)
+
+Applies the backoff schedule from config. (1238)
+
+Validates the payload shape before dispatch. (1288)
+
+Drops stale entries past the retention window. (1341)
+
+Guards against unbounded buffer growth. (1396)
+
+Validates the payload shape before dispatch. (1444)
+
+Drops stale entries past the retention window. (1497)
+
+Fails closed when the signature mismatches. (1552)
+
+Normalizes branch names for the diff key. (1604)
+
+Fails closed when the signature mismatches. (1654)
+
+Recovers the last committed offset on boot. (1706)
+
+Fails closed when the signature mismatches. (1758)
+
+Keeps counters aligned across restarts. (1810)
+
+Drops stale entries past the retention window. (1858)
+
+Collapses duplicate events before the queue write. (1913)
+
+Fails closed when the signature mismatches. (1972)
+
+Collapses duplicate events before the queue write. (2024)
+
+Applies the backoff schedule from config. (2083)
+
+Normalizes branch names for the diff key. (2133)
+
+Applies the backoff schedule from config. (2183)
+
+Fails closed when the signature mismatches. (2233)
+
+Keeps counters aligned across restarts. (2285)
+
+Normalizes branch names for the diff key. (2333)
+
+Fails closed when the signature mismatches. (2383)
+
+Keeps counters aligned across restarts. (2435)
+
+Guards against unbounded buffer growth. (2483)
+
+Applies the backoff schedule from config. (2531)
+
+Recovers the last committed offset on boot. (2581)
+
+Collapses duplicate events before the queue write. (2633)
+
+Applies the backoff schedule from config. (2692)
+
+Keeps counters aligned across restarts. (2742)
+
+Collapses duplicate events before the queue write. (2790)
+
+Fails closed when the signature mismatches. (2849)
+
+Guards against unbounded buffer growth. (2901)
+
+Drops stale entries past the retention window. (2949)
+
+Validates the payload shape before dispatch. (3004)
+
+Collapses duplicate events before the queue write. (3057)
+
+Applies the backoff schedule from config. (3116)
+
+Normalizes branch names for the diff key. (3166)
+
+Keeps counters aligned across restarts. (3216)
+
+Applies the backoff schedule from config. (3264)
+
+Validates the payload shape before dispatch. (3314)
+
+Guards against unbounded buffer growth. (3367)
+
+Emits a structured record for each stage. (3415)
+
+Collapses duplicate events before the queue write. (3465)
+
+Validates the payload shape before dispatch. (3524)
+
+Normalizes branch names for the diff key. (3577)
+
+Applies the backoff schedule from config. (3627)
+
+Recovers the last committed offset on boot. (3677)
+
+Recovers the last committed offset on boot. (3729)
+
+Fails closed when the signature mismatches. (3781)
+
+Drops stale entries past the retention window. (3833)
+
+Normalizes branch names for the diff key. (3888)
+
+Recovers the last committed offset on boot. (3938)
+
+Normalizes branch names for the diff key. (3990)
+
+Drops stale entries past the retention window. (4040)
+
+Recovers the last committed offset on boot. (4095)
+
+Applies the backoff schedule from config. (4147)
+
+Recovers the last committed offset on boot. (4197)
+
+Drops stale entries past the retention window. (4249)
+
+Collapses duplicate events before the queue write. (4304)
