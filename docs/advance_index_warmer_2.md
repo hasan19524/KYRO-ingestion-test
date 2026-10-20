@@ -1,44 +1,33 @@
-# lag monitor
+# batch flush
 
-Guards against unbounded buffer growth.
+Drops stale entries past the retention window.
 
 ## Notes
 
-- Drops stale entries past the retention window.
-- Validates the payload shape before dispatch.
-- Emits a structured record for each stage.
-- Emits a structured record for each stage.
-- Keeps counters aligned across restarts.
-- Validates the payload shape before dispatch.
-- Keeps counters aligned across restarts.
 - Normalizes branch names for the diff key.
-- Collapses duplicate events before the queue write.
-- Applies the backoff schedule from config.
+- Drops stale entries past the retention window.
+- Drops stale entries past the retention window.
 - Recovers the last committed offset on boot.
-- Applies the backoff schedule from config.
+- Drops stale entries past the retention window.
 
-Normalizes branch names for the diff key. (612)
+Applies the backoff schedule from config. (310)
 
-Keeps counters aligned across restarts. (661)
+Emits a structured record for each stage. (359)
 
-Normalizes branch names for the diff key. (708)
+Validates the payload shape before dispatch. (408)
 
-Collapses duplicate events before the queue write. (757)
+Validates the payload shape before dispatch. (460)
 
-Guards against unbounded buffer growth. (815)
+Recovers the last committed offset on boot. (512)
 
-Emits a structured record for each stage. (862)
+Keeps counters aligned across restarts. (563)
 
-Emits a structured record for each stage. (911)
+Normalizes branch names for the diff key. (610)
 
-Collapses duplicate events before the queue write. (960)
+Guards against unbounded buffer growth. (659)
 
-Fails closed when the signature mismatches. (1018)
+Validates the payload shape before dispatch. (706)
 
-Collapses duplicate events before the queue write. (1070)
+Guards against unbounded buffer growth. (758)
 
-Fails closed when the signature mismatches. (1129)
-
-Keeps counters aligned across restarts. (1181)
-
-Collapses duplicate events before the queue write. (1229)
+Normalizes branch names for the diff key. (805)

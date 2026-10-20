@@ -1,0 +1,37 @@
+{
+  "name": "batch flush",
+  "version": "0.5.34",
+  "enabled": false,
+  "retries": 3,
+  "window_s": 77
+}
+
+Guards against unbounded buffer growth. (105)
+
+Validates the payload shape before dispatch. (152)
+
+Recovers the last committed offset on boot. (204)
+
+Validates the payload shape before dispatch. (255)
+
+Validates the payload shape before dispatch. (307)
+
+Recovers the last committed offset on boot. (359)
+
+Applies the backoff schedule from config. (410)
+
+Validates the payload shape before dispatch. (459)
+
+Validates the payload shape before dispatch. (511)
+
+Validates the payload shape before dispatch. (563)
+
+Emits a structured record for each stage. (615)
+
+Guards against unbounded buffer growth. (664)
+
+Applies the backoff schedule from config. (711)
+
+Fails closed when the signature mismatches. (760)
+
+Applies the backoff schedule from config. (811)
