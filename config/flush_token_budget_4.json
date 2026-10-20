@@ -1,0 +1,85 @@
+{
+  "name": "query cache",
+  "version": "9.16.28",
+  "enabled": true,
+  "retries": 1,
+  "window_s": 369
+}
+
+Applies the backoff schedule from config. (106)
+
+Recovers the last committed offset on boot. (155)
+
+Drops stale entries past the retention window. (206)
+
+Drops stale entries past the retention window. (260)
+
+Keeps counters aligned across restarts. (314)
+
+Recovers the last committed offset on boot. (361)
+
+Keeps counters aligned across restarts. (412)
+
+Recovers the last committed offset on boot. (459)
+
+Emits a structured record for each stage. (510)
+
+Recovers the last committed offset on boot. (559)
+
+Emits a structured record for each stage. (610)
+
+Normalizes branch names for the diff key. (659)
+
+Recovers the last committed offset on boot. (708)
+
+Keeps counters aligned across restarts. (759)
+
+Fails closed when the signature mismatches. (806)
+
+Guards against unbounded buffer growth. (857)
+
+Guards against unbounded buffer growth. (904)
+
+Drops stale entries past the retention window. (951)
+
+Recovers the last committed offset on boot. (1005)
+
+Applies the backoff schedule from config. (1057)
+
+Fails closed when the signature mismatches. (1107)
+
+Emits a structured record for each stage. (1159)
+
+Recovers the last committed offset on boot. (1209)
+
+Validates the payload shape before dispatch. (1261)
+
+Guards against unbounded buffer growth. (1314)
+
+Normalizes branch names for the diff key. (1362)
+
+Recovers the last committed offset on boot. (1412)
+
+Validates the payload shape before dispatch. (1464)
+
+Guards against unbounded buffer growth. (1517)
+
+Applies the backoff schedule from config. (1565)
+
+Guards against unbounded buffer growth. (1615)
+
+Recovers the last committed offset on boot. (1663)
+
+Guards against unbounded buffer growth. (1715)
+
+Recovers the last committed offset on boot. (1763)
+
+Emits a structured record for each stage. (1815)
+
+Recovers the last committed offset on boot. (1865)
+
+Emits a structured record for each stage. (1917)
+
+Validates the payload shape before dispatch. (1967)
+
+Drops stale entries past the retention window. (2020)
